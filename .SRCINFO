@@ -1,0 +1,24 @@
+pkgbase = kwallet-git
+	pkgdesc = KWallet Framework
+	pkgver = v5.102.0.r16.g130491f
+	pkgrel = 1
+	url = https://invent.kde.org/frameworks/kwallet
+	arch = i686
+	arch = x86_64
+	license = LGPL
+	makedepends = extra-cmake-modules-git
+	makedepends = git
+	makedepends = python
+	makedepends = boost
+	makedepends = kdoctools-git
+	makedepends = qca-qt6
+	depends = knotifications-git
+	depends = kiconthemes-git
+	depends = kservice-git
+	depends = gpgme
+	provides = kwallet
+	conflicts = kwallet
+	source = git+https://invent.kde.org/frameworks/kwallet.git
+	md5sums = SKIP
+
+pkgname = kwallet-git
